@@ -22,77 +22,94 @@
 </style>
 </head>
 <body>
-<!-- 공개본은 JLBizz/janggi-privacy 의 index.html(이 파일을 그대로 복사한다). 2026-10-21 보호책임자 · 연락처는 사용자가 정했다. -->
+<!-- 공개본은 JLBizz/janggi-privacy 의 index.html(이 파일을 그대로 복사한다). 2026-10-21 보호책임자 · 연락처는 사용자가 정했다.
+     2026-10-23 출시 전 검수에 맞춘 초안 — 소셜 로그인(카카오 · Google · Apple)으로 받는 정보, 처리 위탁 · 국외 이전, 파기 방법, 안전 조치,
+     결제 기록 보유 기간, 없어진 무료 이용 한도 문구. 2026-10-26 공개 — 사용자가 공개한 링크에서 검토한다. -->
 
 <h1>절대장기 개인정보 처리방침</h1>
-<p class="updated">최종 수정일 2026-10-22</p>
+<p class="updated">최종 수정일 2026-10-26</p>
 
 <p>절대장기는 <strong>사람과 두는 온라인 대국</strong>을 위해 꼭 필요한 정보만 서버에 둡니다.
-이름·이메일·전화번호는 묻지 않습니다. AI 대국과 문제 풀이는 지금처럼 기기 안에서만 돌고,
-그 기록은 기기 밖으로 나가지 않습니다.</p>
+게스트로 시작하면 이름 · 이메일 · 전화번호를 묻지 않습니다. 카카오 · Google · Apple로 로그인하면 아래 '소셜 로그인'의 정보를 그 서비스에서 받습니다.
+AI 대국은 기기 안에서만 돌고, 그 수순과 전적은 기기 밖으로 나가지 않습니다(처음 급수를 정하는 배치 대국의 결과와 AI 퀘스트 달성 여부만 서버에 적습니다).</p>
 
 <h2>온라인 대국을 쓸 때 서버에 두는 것</h2>
 <table>
-  <tr><th>익명 계정</th><td>앱이 처음 온라인 기능을 쓸 때 서버가 만드는 무작위 식별자와 로그인 토큰. 이메일·전화번호·소셜 계정과 이어지지 않습니다.</td></tr>
-  <tr><th>프로필</th><td>직접 정한 닉네임, 급수·승강급 포인트·레이팅, 승패와 연승 기록, 대회 기록과 포인트, 가입·접속 시각</td></tr>
+  <tr><th>계정</th><td>앱이 처음 온라인 기능을 쓸 때 서버가 만드는 무작위 식별자와 로그인 토큰. 게스트 계정은 이메일 · 전화번호 · 소셜 계정과 이어지지 않습니다.</td></tr>
+  <tr><th>소셜 로그인</th><td>로그인을 고르면 그 서비스가 보내 주는 정보 — 카카오: 이메일 · 닉네임 · 프로필 사진 주소 / Google: 이메일 · 이름 · 프로필 사진 주소 / Apple: 이메일(‘이메일 가리기’를 고르면 애플이 만든 대리 주소) · 이름. 그리고 그 서비스의 회원 번호. Apple로 로그인한 계정은 계정을 지울 때 애플과의 연결을 끊기 위한 애플 갱신 토큰을 둡니다.</td></tr>
+  <tr><th>프로필</th><td>직접 정한 닉네임, 고른 프로필 아이콘, 급수 · 승강급 포인트 · 레이팅, 승패와 연승 기록, 대회 · 리그 기록, 가입 · 접속 시각</td></tr>
   <tr><th>대국 기록</th><td>온라인 대국의 상대, 상차림, 수순, 수마다 쓴 시간과 둔 시각, 결과</td></tr>
-  <tr><th>이용 기록</th><td>하루에 둔 온라인 대국 수(무료 이용 한도를 세는 데 씁니다), 짝 찾기 대기 기록(대국이 끝나거나 찾기를 그만두면 지웁니다)</td></tr>
-  <tr><th>친구 · 문파</th><td>친구 목록과 친구 신청, 친구 코드와 초대 기록, 들어간 문파와 역할, 문파 명성 기여, 고른 프로필 아이콘</td></tr>
+  <tr><th>이용 기록</th><td>하루에 둔 온라인 대국 수(하루 이용 한도를 셈하는 데 씁니다), 짝 찾기 대기 기록(대국이 끝나거나 찾기를 그만두면 지웁니다), 판을 자주 피한 기록</td></tr>
+  <tr><th>친구 · 문파</th><td>친구 목록과 친구 신청, 친구 코드와 초대 기록, 들어간 문파와 역할, 문파 명성 기여</td></tr>
   <tr><th>대화</th><td>두 사람이 함께 연 대국 대화와 문파 대화의 글과 보낸 시각(욕설은 가려서 저장합니다)</td></tr>
-  <tr><th>대회 · 리그</th><td>주간 대회와 절대 리그의 승패 · 점수 · 순위</td></tr>
-  <tr><th>지갑</th><td>코인 잔액, 가진 판 · 장기알 꾸미기와 프로필 아이콘, 코인을 받고 쓴 기록(출석 · 퀘스트 · 구매 · 대국 코인 · 무료 충전)</td></tr>
-  <tr><th>기기 번호</th><td>앱이 이 기기의 키체인에 만든 무작위 번호. 광고 식별자가 아니며, 환영 코인 · 초대 보상 · 지난 지갑 옮기기를 기기마다 한 번으로 막는 데만 씁니다.</td></tr>
+  <tr><th>지갑 · 퀘스트</th><td>코인 잔액, 가진 판 · 장기알 꾸미기와 프로필 아이콘, 코인을 받고 쓴 기록(출석 · 퀘스트 · 구매 · 대국 코인 · 무료 충전), 출석한 날, 받은 퀘스트 보상</td></tr>
+  <tr><th>기기 번호</th><td>앱이 이 기기의 키체인에 만든 무작위 번호. 광고 식별자가 아니며, 환영 코인 · 초대 보상 · 지난 지갑 옮기기를 기기마다 한 번으로 막고, 이용이 제한된 사람이 계정을 지우거나 새 게스트로 다시 들어와 제한을 피하지 못하게 하는 데만 씁니다. 계정을 지워도 이 번호와 받은 보상 종류는 계정과 잇지 않은 채 남습니다(아래 '보관 기간과 파기').</td></tr>
   <tr><th>결제</th><td>App Store 거래 번호, 산 상품, 산 때 · 끝나는 때(구독), 환불 여부. 카드 번호 같은 결제 정보는 애플이 처리하며 저희는 받지 않습니다.</td></tr>
-  <tr><th>신고·차단</th><td>신고한 사람과 신고 대상, 까닭, 직접 적은 내용, 차단 목록, 이용 제한 기록</td></tr>
+  <tr><th>신고 · 차단</th><td>신고한 사람과 신고 대상, 까닭, 직접 적은 내용, 차단 목록, 이용 제한 기록</td></tr>
   <tr><th>접속 기록</th><td>서버를 운영하는 서비스 제공자가 보안과 남용 막기를 위해 IP 주소 같은 접속 기록을 짧은 기간 보관할 수 있습니다.</td></tr>
 </table>
 
 <h2>쓰는 목적</h2>
-<p>대국 상대를 짝짓고 판을 진행하는 것, 급수와 순위를 셈하는 것, 주간 대회를 운영하는 것,
-엔진 사용·비매너 같은 신고를 살피고 제재하는 것, 무료 이용 한도를 지키는 것에만 씁니다.
-광고·마케팅이나 프로필 분석에는 쓰지 않으며, 팔거나 빌려주지 않습니다.</p>
+<p>대국 상대를 짝짓고 판을 진행하는 것, 급수와 순위를 셈하는 것, 주간 대회와 리그를 운영하는 것, 대국 코인 · 무료 충전 · 구독을 셈하는 것,
+소셜 로그인으로 다른 기기에서도 같은 계정을 쓰게 하는 것, 엔진 사용 · 비매너 같은 신고를 살피고 제재하는 것에만 씁니다.
+광고 · 마케팅이나 프로필 분석에는 쓰지 않으며, 팔거나 빌려주지 않습니다.</p>
 
 <h2>다른 이용자에게 보이는 것</h2>
-<p>닉네임, 프로필 아이콘, 급수, 레이팅, 승패 기록, 들어간 문파는 대국 상대와 순위표 · 친구 · 문파 화면에 보입니다. 랭크 대국 · 주간 대회 ·
-리그 대국은 다른 이용자가 관전할 수 있고(두는 중에는 두 수 늦게), 끝난 판의 수순도 볼 수 있습니다. 친구 대국은 두
-사람만 볼 수 있습니다. 대화 글은 그 대화에 든 사람(두 대국자 · 같은 문파원)만 봅니다.</p>
+<p>닉네임, 프로필 아이콘, 급수, 레이팅, 승패 기록, 들어간 문파는 대국 상대와 순위표 · 친구 · 문파 화면에 보입니다. 소셜 로그인으로 받은 이메일 · 이름 · 사진은
+다른 이용자에게 보이지 않습니다. 랭크 대국 · 주간 대회 · 리그 대국은 다른 이용자가 관전할 수 있고(두는 중에는 두 수 늦게), 끝난 판의 수순도 볼 수 있습니다.
+친구 대국은 두 사람만 볼 수 있습니다. 대화 글은 그 대화에 든 사람(두 대국자 · 같은 문파원)만 봅니다.</p>
 
-<h2>처리를 맡긴 곳</h2>
+<h2>처리를 맡긴 곳 · 국외 이전</h2>
 <table>
-  <tr><th>Supabase Inc.</th><td>서버(데이터베이스·로그인·실시간 전송) 운영. 데이터는 대한민국(서울) 지역의 서버에 저장됩니다.</td></tr>
+  <tr><th>Supabase Pte. Ltd.(싱가포르)</th><td>서버(데이터베이스 · 로그인 · 실시간 전송) 운영. 연락처 privacy@supabase.com.<br>
+  · 옮기는 항목: 위의 서버 정보 전부<br>
+  · 국가 · 시기 · 방법: 데이터는 대한민국(서울) 지역의 서버에 저장되며, 운영 · 장애 대응을 위해 회사가 국외(싱가포르 · 미국 등)에서 접근할 수 있습니다. 앱을 쓰는 동안 수시로, 앱과 서버 사이의 암호화된 전송(HTTPS)으로 옮깁니다.<br>
+  · 쓰는 목적 · 보유 기간: 서버 운영. 계정을 지우거나 위탁 계약이 끝날 때까지<br>
+  · 거부하는 방법과 그 결과: 온라인 기능을 쓰지 않거나 설정 › 계정 삭제로 계정을 지우면 됩니다. 그러면 사람과 두는 대국 · 친구 · 문파 · 상점을 쓸 수 없고, AI 대국은 그대로 쓸 수 있습니다.</td></tr>
 </table>
+<p>로그인과 결제는 이용자가 고른 서비스가 직접 처리합니다. 카카오(대한민국) · Google(미국) · Apple(미국)은 로그인할 때 위 '소셜 로그인'의 정보를 저희에게 보내고,
+Apple은 App Store 결제를 처리합니다. 각 서비스에서의 처리는 그 회사의 처리방침을 따릅니다.</p>
 
-<h2>보관 기간과 지우기</h2>
-<p>서버의 정보는 계정을 지울 때까지 보관합니다. 앱의 <strong>설정 › 계정 삭제</strong>로 언제든
-지울 수 있고, 지우면 프로필·대국 기록·이용 기록·신고와 차단 기록에서 이 계정의 정보를 지체
-없이 파기합니다. 상대의 기록에 남은 판에서는 이 계정이 드러나지 않게 합니다. 결제 기록은 같은 거래로 두 번 받지 않도록 계정과의 연결만 끊고 남깁니다.</p>
-<p>익명 계정의 로그인 정보는 이 기기의 키체인과 앱 설정에 저장되므로, 앱을 지웠다 다시 깔거나 iCloud · 컴퓨터 백업이나 기기 간 옮기기로
-새 기기에 옮겨도 같은 계정(코인 · 꾸미기 · 급수)으로 들어옵니다. 백업 없이 기기를 초기화하거나 새 기기를 쓰면 같은 계정으로 들어올 수
-없습니다. 이때 서버에 남은 정보는 문의처로 요청하면 지웁니다.</p>
+<h2>보관 기간과 파기</h2>
+<p>서버의 정보는 계정을 지울 때까지 보관합니다. 앱의 <strong>설정 › 계정 삭제</strong>로 언제든 지울 수 있고, 지우면 프로필 · 소셜 로그인 정보 · 대국 기록 · 이용 기록 ·
+대화 · 신고와 차단 기록에서 이 계정의 정보를 지체 없이 파기합니다. 카카오 · Apple로 로그인한 계정은 그 서비스와의 연결도 함께 끊습니다.
+상대의 기록에 남은 판에서는 이 계정이 드러나지 않게 합니다.</p>
+<p>결제 기록(거래 번호 · 산 상품 · 산 때 · 끝나는 때 · 환불 여부)은 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 계정을 지운 뒤에도 계정과의 연결을 끊은 채
+5년 동안 보관하고(같은 거래로 두 번 받지 않게 막는 데도 씁니다), 마지막으로 바뀐 때부터 5년이 지나면 서버가 자동으로 파기합니다.</p>
+<p>기기 번호와 그 기기로 받은 보상 종류(환영 코인 · 초대 보상 · 지갑 옮기기)는 계정을 지운 뒤에도 계정과 잇지 않은 채 서비스를 끝낼 때까지 보관하며,
+같은 기기에서 같은 보상을 다시 받지 못하게 막는 데만 씁니다. 이용이 제한된 계정이 쓴 기기 번호는 그 제한이 끝날 때까지 남겨, 계정을 지우거나 새 게스트로 들어와도 같은 기기에서는 제한이 이어지게 합니다.</p>
+<p>파기는 데이터베이스에서 복구할 수 없게 지우는 방법으로 하며, 서버 백업에 남은 사본은 백업 보관 기간이 지나면 함께 사라집니다.</p>
+<p>게스트 계정의 로그인 정보는 이 기기의 키체인과 앱 설정에 저장되므로, 앱을 지웠다 다시 깔거나 iCloud · 컴퓨터 백업이나 기기 간 옮기기로
+새 기기에 옮겨도 같은 계정(코인 · 꾸미기 · 급수)으로 들어옵니다. 백업 없이 기기를 초기화하거나 새 기기를 쓰면 게스트 계정으로는 다시 들어올 수
+없으니, 소셜 로그인을 이어 두시길 권합니다. 이때 서버에 남은 정보는 문의처로 요청하면 지웁니다.</p>
+
+<h2>안전성 확보 조치</h2>
+<p>앱과 서버 사이의 모든 전송을 암호화(HTTPS)합니다. 서버는 이용자가 자기 정보만 읽고 쓸 수 있게 막아 두었고(행 단위 접근 제한), 지갑 · 결제 · 로그인 토큰은
+앱이 직접 읽거나 쓸 수 없게 서버 함수로만 다룹니다. 비밀번호를 받거나 저장하지 않으며, 결제 정보(카드 번호 등)는 받지 않습니다. 운영자의 서버 접근은 필요한 사람으로 줄입니다.</p>
+
+<h2>자동으로 모으는 장치</h2>
+<p>앱은 쿠키나 광고 식별자를 쓰지 않습니다. 위의 '기기 번호'만 앱이 이 기기에 만들어 씁니다. 광고 · 분석 도구를 넣지 않았습니다.</p>
 
 <h2>기기 안에만 남는 것</h2>
 <p>아래는 기기 안의 앱 저장 공간에만 기록되며 저희는 볼 수 없습니다. 앱을 지우면 함께 사라집니다.</p>
 <table>
-  <tr><th>AI 대국</th><td>AI 승급전 점수와 전적, 두던 판, 최근 20판의 수순과 수별 평가</td></tr>
-  <tr><th>문제</th><td>푼 문제와 기록</td></tr>
-  <tr><th>설정</th><td>소리·진동, 고른 상대 수준과 상차림 같은 선택</td></tr>
+  <tr><th>AI 대국</th><td>AI 승급전 점수와 전적, 두던 판, 최근 기보와 수별 평가, 퀘스트 진행</td></tr>
+  <tr><th>설정</th><td>소리 · 진동 · 크기, 화면 모드, 고른 상대 수준과 상차림 같은 선택</td></tr>
 </table>
-<p>국면 분석에 고른 사진은 기기 안에서만 읽고 서버로 보내지 않습니다. 앱은 사진 보관함
-전체에 접근하지 않고, 고른 한 장만 받습니다. 위치·연락처·카메라·마이크에는 접근하지 않습니다.
-광고 식별자를 읽지 않으며 광고나 분석 도구를 넣지 않았습니다.</p>
+<p>앱은 위치 · 연락처 · 카메라 · 마이크 · 사진 보관함에 접근하지 않습니다.</p>
 
 <h2>기기 백업</h2>
 <p>안드로이드의 자동 백업이나 iOS의 기기 백업(iCloud 또는 컴퓨터)에 앱 데이터가 포함될 수
-있습니다. 이는 구글·애플이 제공하는 기능이며 저희에게 전달되지 않습니다.</p>
+있습니다. 이는 구글 · 애플이 제공하는 기능이며 저희에게 전달되지 않습니다.</p>
 
 <h2>어린이</h2>
 <p>온라인 대국은 만 14세 이상이 이용하도록 안내합니다. 만 14세 미만 아동이 법정대리인의 동의
-없이 온라인 기능을 쓴 사실을 알게 되면 그 계정의 정보를 지웁니다. AI 대국과 문제는 정보를
+없이 온라인 기능을 쓴 사실을 알게 되면 그 계정의 정보를 지웁니다. AI 대국은 정보를
 모으지 않으므로 나이와 관계없이 쓸 수 있습니다.</p>
 
 <h2>이용자의 권리</h2>
 <p>자신의 정보를 보거나 고치거나 지우거나 처리를 멈추도록 요청할 수 있습니다. 닉네임은 앱
-안에서 바꾸고, 계정은 설정에서 지울 수 있습니다. 그 밖의 요청은 아래 문의처로 보내 주세요.</p>
+안에서 바꾸고, 계정은 설정에서 지울 수 있습니다. 그 밖의 요청은 아래 문의처로 보내 주세요. 요청은 지체 없이 처리합니다.</p>
 
 <h2>변경</h2>
 <p>이 방침이 바뀌면 이 문서를 고치고 위의 최종 수정일을 갱신합니다. 수집하는 정보가 늘어나는
@@ -107,85 +124,91 @@
 개인정보 침해에 대한 신고나 상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118)에도 할 수 있습니다.</p>
 
 <hr>
-
 <div lang="en">
 <h1>절대장기 (Jeoldae Janggi) — Privacy Policy</h1>
-<p class="updated">Last updated 2026-10-22</p>
+<p class="updated">Last updated 2026-10-26</p>
 
 <p>For <strong>online games against other people</strong>, the app keeps only what the service
-needs on our server. We never ask for your name, email, or phone number. Games against the AI
-and puzzles still run entirely on your device, and their records never leave it.</p>
+needs on our server. If you start as a guest, we never ask for your name, email, or phone number. If you sign in with Kakao, Google, or Apple,
+we receive the information listed under "Social sign-in" from that service. Games against the AI run entirely on your device and their moves and
+records never leave it (only the result of the placement games that set your starting rank, and whether you completed AI quests, are stored).</p>
 
 <h2>What is stored on the server when you play online</h2>
 <table>
-  <tr><th>Anonymous account</th><td>A random identifier and sign-in token created the first time you use an online feature. It is not linked to any email, phone number, or social account.</td></tr>
-  <tr><th>Profile</th><td>The nickname you choose; rank, promotion points, and rating; wins, losses, and streaks; weekly cup results and points; sign-up and last-seen times</td></tr>
+  <tr><th>Account</th><td>A random identifier and sign-in token created the first time you use an online feature. A guest account is not linked to any email, phone number, or social account.</td></tr>
+  <tr><th>Social sign-in</th><td>What the service you choose sends us — Kakao: email, nickname, profile photo URL / Google: email, name, profile photo URL / Apple: email (a relay address if you choose “Hide My Email”) and name — plus your member number at that service. For Apple sign-in we keep an Apple refresh token so that we can revoke the link when you delete your account.</td></tr>
+  <tr><th>Profile</th><td>The nickname and profile icon you choose; rank, promotion points, and rating; wins, losses, and streaks; cup and league results; sign-up and last-seen times</td></tr>
   <tr><th>Game records</th><td>For each online game: opponent, piece setup, moves, time spent and timestamp of each move, and the result</td></tr>
-  <tr><th>Usage</th><td>How many online games you played each day (used for the free daily limit), and matchmaking queue entries (deleted once the game ends or you stop searching)</td></tr>
-  <tr><th>Friends and clans</th><td>Your friend list and requests, friend code and invites, the clan (문파) you joined and your role, your clan score contributions, and the profile icon you chose</td></tr>
+  <tr><th>Usage</th><td>How many online games you played each day (used for the daily play limit), matchmaking queue entries (deleted once the game ends or you stop searching), and records of leaving games early</td></tr>
+  <tr><th>Friends and clans</th><td>Your friend list and requests, friend code and invites, the clan (문파) you joined and your role, and your clan score contributions</td></tr>
   <tr><th>Chat</th><td>Messages and timestamps in game chats both players opened and in clan chats (profanity is masked before storage)</td></tr>
-  <tr><th>Cup and league</th><td>Wins, losses, points, and standings in the weekly cup and the league</td></tr>
-  <tr><th>Wallet</th><td>Your coin balance, the boards, pieces and profile icons you own, and a log of coins received and spent (check-ins, quests, purchases, game fees, free refills)</td></tr>
-  <tr><th>Device number</th><td>A random number the app creates in this device's keychain. It is not an advertising identifier; it is used only to limit the welcome coins, invite rewards and wallet transfer to once per device.</td></tr>
+  <tr><th>Wallet and quests</th><td>Your coin balance, the boards, pieces and profile icons you own, a log of coins received and spent (check-ins, quests, purchases, game fees, free refills), check-in days, and quest rewards you claimed</td></tr>
+  <tr><th>Device number</th><td>A random number the app creates in this device's keychain. It is not an advertising identifier; it is used only to limit the welcome coins, invite rewards and wallet transfer to once per device, and to stop a restricted player from escaping the restriction by deleting the account or starting over as a new guest. It stays, unlinked from any account, after you delete your account (see "Retention and deletion").</td></tr>
   <tr><th>Purchases</th><td>App Store transaction IDs, the product, purchase and (for subscriptions) expiry dates, and refund status. Payment details such as card numbers are handled by Apple; we never receive them.</td></tr>
   <tr><th>Reports and blocks</th><td>Who reported whom, the reason, any note you wrote, your block list, and any restrictions</td></tr>
   <tr><th>Access logs</th><td>Our hosting provider may keep access logs such as IP addresses for a short period for security and abuse prevention.</td></tr>
 </table>
 
 <h2>Why we use it</h2>
-<p>Only to match opponents and run games, calculate ranks and rankings, run the weekly cup,
-review and act on reports such as engine use or bad manners, and enforce the free daily limit.
-We do not use it for advertising, marketing, or profiling, and we do not sell or rent it.</p>
+<p>Only to match opponents and run games, calculate ranks and rankings, run the weekly cup and the league, account for game fees, free refills
+and subscriptions, let you use the same account on other devices through social sign-in, and review and act on reports such as engine use or bad
+manners. We do not use it for advertising, marketing, or profiling, and we do not sell or rent it.</p>
 
 <h2>What other players can see</h2>
-<p>Your nickname, rank, rating, and win/loss record are shown to opponents and on the rankings.
-Ranked and weekly cup games can be watched by other players, including their move lists after
-they end. Friend games are visible only to the two players.</p>
+<p>Your nickname, profile icon, rank, rating, win/loss record, and clan are shown to opponents and on rankings, friend and clan screens. The email,
+name and photo from social sign-in are never shown to other players. Ranked, cup and league games can be watched by other players (two moves
+behind while in progress), including their move lists after they end. Friend games are visible only to the two players. Chat is visible only to
+the people in that chat.</p>
 
-<h2>Processors</h2>
+<h2>Processors and transfers abroad</h2>
 <table>
-  <tr><th>Supabase Inc.</th><td>Operates our server (database, sign-in, realtime delivery). Data is stored in the Seoul, South Korea region.</td></tr>
+  <tr><th>Supabase Pte. Ltd. (Singapore)</th><td>Operates our server (database, sign-in, realtime delivery). Contact: privacy@supabase.com.<br>
+  · Items: all server data listed above<br>
+  · Country, timing and method: data is stored in the Seoul, South Korea region; the company may access it from abroad (Singapore, the USA and others) for operations and incident response. Transferred whenever you use the app, over encrypted connections (HTTPS).<br>
+  · Purpose and retention: operating the server, until you delete your account or the contract ends<br>
+  · How to refuse, and what happens: don't use the online features, or delete your account in Settings › Delete account. You then can't play people, use friends, clans or the shop; games against the AI still work.</td></tr>
 </table>
+<p>Sign-in and payments are handled by the service you choose: Kakao (South Korea), Google (USA) and Apple (USA) send us the sign-in information
+above, and Apple processes App Store payments under its own privacy policy.</p>
 
 <h2>Retention and deletion</h2>
-<p>Server data is kept until you delete your account. You can do so at any time in
-<strong>Settings › Delete account</strong>; your profile, game records, usage, reports, and
-blocks are then destroyed without delay, and games in other players' records no longer
-identify you. Purchase records are kept with the account link removed, so the same transaction cannot be redeemed twice.</p>
-<p>The anonymous sign-in is stored in this device's keychain and app settings, so reinstalling the app, or moving to a new device with an
-iCloud or computer backup or device-to-device transfer, signs you back in to the same account (coins, cosmetics, rank). On a device reset
-without a backup, or a new device set up from scratch, you cannot sign back in to it; contact us and we will delete what remains on the server.</p>
+<p>Server data is kept until you delete your account. You can do so at any time in <strong>Settings › Delete account</strong>; your profile,
+social sign-in data, game records, usage, chat, reports, and blocks are then destroyed without delay, and the link to Kakao or Apple is revoked.
+Games in other players' records no longer identify you. Purchase records (transaction ID, product, purchase and expiry
+dates, refund status) are kept, unlinked from the account, for five years as required by Korean e-commerce law (they also stop the same
+transaction from being redeemed twice), and the server deletes them automatically five years after their last change. The device number and
+which device rewards it has received (welcome coins, invite rewards, wallet transfer) are kept, unlinked from any account, until the service
+ends, only to stop the same device from receiving them again. The device numbers used by a restricted account are kept until the
+restriction ends, so that deleting the account or starting over as a guest on the same device does not lift it. Deleted data is erased from the
+database and disappears from server backups when the backup retention period ends.</p>
+<p>A guest sign-in is stored in this device's keychain and app settings, so reinstalling the app, or moving to a new device with an iCloud or
+computer backup or device-to-device transfer, signs you back in to the same account. On a device reset without a backup, a guest account cannot
+be recovered, so we recommend linking a social sign-in; contact us and we will delete what remains on the server.</p>
+
+<h2>Security</h2>
+<p>All traffic between the app and the server is encrypted (HTTPS). The server only lets each user read and write their own data (row-level
+security), and wallets, purchases and sign-in tokens can be handled only through server functions. We never collect passwords or payment card
+details.</p>
 
 <h2>What stays on your device</h2>
-<p>The following is written only to the app's own storage. We cannot see it, and deleting the
-app removes it.</p>
-<table>
-  <tr><th>AI games</th><td>AI ladder rating and record, game in progress, the last 20 games with per-move evaluations</td></tr>
-  <tr><th>Puzzles</th><td>Which puzzles you solved and your records</td></tr>
-  <tr><th>Settings</th><td>Sound and haptics, chosen opponent level, piece setup, and similar choices</td></tr>
-</table>
-<p>A photo you choose for position analysis is read on the device and never uploaded. The app
-receives only the one photo you pick, not your photo library. We do not access location,
-contacts, camera, or microphone, we do not read advertising identifiers, and the app contains
-no advertising or analytics SDKs.</p>
+<p>AI ladder rating and record, games in progress, recent game records and per-move evaluations, quest progress, and settings are written only to
+the app's own storage. We cannot see them, and deleting the app removes them. The app does not access location, contacts, camera, microphone, or
+your photo library, does not use cookies or advertising identifiers, and contains no advertising or analytics SDKs.</p>
 
 <h2>Device backup</h2>
-<p>App data may be included in Android auto-backup or in your iOS device backup (iCloud or
-computer). These are Google and Apple features and are not transmitted to us.</p>
+<p>App data may be included in Android auto-backup or in your iOS device backup (iCloud or computer). These are Google and Apple features and are
+not transmitted to us.</p>
 
 <h2>Children</h2>
-<p>Online play is intended for users aged 14 and over. If we learn that a child under 14 used
-online features without a legal guardian's consent, we delete that account's data. AI games and
-puzzles collect nothing and are available at any age.</p>
+<p>Online play is intended for users aged 14 and over. If we learn that a child under 14 used online features without a legal guardian's consent,
+we delete that account's data. AI games collect nothing and are available at any age.</p>
 
 <h2>Your rights</h2>
-<p>You may ask to access, correct, delete, or stop the processing of your data. You can change
-your nickname in the app and delete your account in Settings; send any other request to the
-contact below.</p>
+<p>You may ask to access, correct, delete, or stop the processing of your data. You can change your nickname in the app and delete your account
+in Settings; send any other request to the contact below.</p>
 
 <h2>Changes</h2>
-<p>If this policy changes, we will update this document and the date above. If a change adds
-any data collection, we will say so inside the app.</p>
+<p>If this policy changes, we will update this document and the date above. If a change adds any data collection, we will say so inside the app.</p>
 
 <h2>Contact</h2>
 <p>Privacy officer: 이준모 (Lee Junmo) — <a href="mailto:leejunmo@kakao.com">leejunmo@kakao.com</a>.
