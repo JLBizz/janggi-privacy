@@ -24,10 +24,11 @@
 <body>
 <!-- 공개본은 JLBizz/janggi-privacy 의 index.html(이 파일을 그대로 복사한다). 2026-10-21 보호책임자 · 연락처는 사용자가 정했다.
      2026-10-23 출시 전 검수에 맞춘 초안 — 소셜 로그인(카카오 · Google · Apple)으로 받는 정보, 처리 위탁 · 국외 이전, 파기 방법, 안전 조치,
-     결제 기록 보유 기간, 없어진 무료 이용 한도 문구. 2026-10-26 공개 — 사용자가 공개한 링크에서 검토한다. -->
+     결제 기록 보유 기간, 없어진 무료 이용 한도 문구. 2026-10-26 공개 — 사용자가 공개한 링크에서 검토한다.
+     2026-11-01 알림(푸시) · 안드로이드 기기 번호 · Google Play 결제를 더했다. -->
 
 <h1>절대장기 개인정보 처리방침</h1>
-<p class="updated">최종 수정일 2026-10-26</p>
+<p class="updated">최종 수정일 2026-11-01</p>
 
 <p>절대장기는 <strong>사람과 두는 온라인 대국</strong>을 위해 꼭 필요한 정보만 서버에 둡니다.
 게스트로 시작하면 이름 · 이메일 · 전화번호를 묻지 않습니다. 카카오 · Google · Apple로 로그인하면 아래 '소셜 로그인'의 정보를 그 서비스에서 받습니다.
@@ -43,8 +44,9 @@ AI 대국은 기기 안에서만 돌고, 그 수순과 전적은 기기 밖으�
   <tr><th>친구 · 문파</th><td>친구 목록과 친구 신청, 친구 코드와 초대 기록, 들어간 문파와 역할, 문파 명성 기여</td></tr>
   <tr><th>대화</th><td>두 사람이 함께 연 대국 대화와 문파 대화의 글과 보낸 시각(욕설은 가려서 저장합니다)</td></tr>
   <tr><th>지갑 · 퀘스트</th><td>코인 잔액, 가진 판 · 장기알 꾸미기와 프로필 아이콘, 코인을 받고 쓴 기록(출석 · 퀘스트 · 구매 · 대국 코인 · 무료 충전), 출석한 날, 받은 퀘스트 보상</td></tr>
-  <tr><th>기기 번호</th><td>앱이 이 기기의 키체인에 만든 무작위 번호. 광고 식별자가 아니며, 환영 코인 · 초대 보상 · 지난 지갑 옮기기를 기기마다 한 번으로 막고, 이용이 제한된 사람이 계정을 지우거나 새 게스트로 다시 들어와 제한을 피하지 못하게 하는 데만 씁니다. 계정을 지워도 이 번호와 받은 보상 종류는 계정과 잇지 않은 채 남습니다(아래 '보관 기간과 파기').</td></tr>
-  <tr><th>결제</th><td>App Store 거래 번호, 산 상품, 산 때 · 끝나는 때(구독), 환불 여부. 카드 번호 같은 결제 정보는 애플이 처리하며 저희는 받지 않습니다.</td></tr>
+  <tr><th>기기 번호</th><td>iOS는 앱이 이 기기의 키체인에 만든 무작위 번호, 안드로이드는 운영체제가 이 앱에 주는 기기 번호(ANDROID_ID)를 앱 이름과 섞어 되돌릴 수 없게 바꾼 값. 광고 식별자가 아니며, 환영 코인 · 초대 보상 · 지난 지갑 옮기기를 기기마다 한 번으로 막고, 이용이 제한된 사람이 계정을 지우거나 새 게스트로 다시 들어와 제한을 피하지 못하게 하는 데만 씁니다. 계정을 지워도 이 번호와 받은 보상 종류는 계정과 잇지 않은 채 남습니다(아래 '보관 기간과 파기').</td></tr>
+  <tr><th>알림</th><td>알림을 켜면 이 기기의 알림 주소(Apple · Google이 기기마다 주는 푸시 토큰)와 기기 종류. 친구 대국 신청 · 친구 신청 · 문파 가입 신청 · 시간 무제한 대국의 내 차례를 알리는 데만 쓰고, 광고 알림은 보내지 않습니다. 알림을 끄거나 계정을 지우면 지웁니다.</td></tr>
+  <tr><th>결제</th><td>App Store · Google Play 거래 번호, 산 상품, 산 때 · 끝나는 때(구독), 환불 여부. 카드 번호 같은 결제 정보는 애플 · 구글이 처리하며 저희는 받지 않습니다.</td></tr>
   <tr><th>신고 · 차단</th><td>신고한 사람과 신고 대상, 까닭, 직접 적은 내용, 차단 목록, 이용 제한 기록</td></tr>
   <tr><th>접속 기록</th><td>서버를 운영하는 서비스 제공자가 보안과 남용 막기를 위해 IP 주소 같은 접속 기록을 짧은 기간 보관할 수 있습니다.</td></tr>
 </table>
@@ -66,9 +68,14 @@ AI 대국은 기기 안에서만 돌고, 그 수순과 전적은 기기 밖으�
   · 국가 · 시기 · 방법: 데이터는 대한민국(서울) 지역의 서버에 저장되며, 운영 · 장애 대응을 위해 회사가 국외(싱가포르 · 미국 등)에서 접근할 수 있습니다. 앱을 쓰는 동안 수시로, 앱과 서버 사이의 암호화된 전송(HTTPS)으로 옮깁니다.<br>
   · 쓰는 목적 · 보유 기간: 서버 운영. 계정을 지우거나 위탁 계약이 끝날 때까지<br>
   · 거부하는 방법과 그 결과: 온라인 기능을 쓰지 않거나 설정 › 계정 삭제로 계정을 지우면 됩니다. 그러면 사람과 두는 대국 · 친구 · 문파 · 상점을 쓸 수 없고, AI 대국은 그대로 쓸 수 있습니다.</td></tr>
+  <tr><th>Apple Inc.(미국) · Google LLC(미국)</th><td>알림 전달 — Apple 푸시 알림 서비스(iOS)와 Firebase 클라우드 메시징(안드로이드).<br>
+  · 옮기는 항목: 알림 주소(푸시 토큰)와 알림 글(보낸 사람 닉네임 · 무슨 알림인지)<br>
+  · 국가 · 시기 · 방법: 미국, 알림을 보낼 때마다, 암호화된 전송(HTTPS)으로<br>
+  · 쓰는 목적 · 보유 기간: 알림을 기기에 전달. 각 회사의 처리방침에 따름<br>
+  · 거부하는 방법과 그 결과: 설정 › 알림을 끄거나 기기 설정에서 알림을 막으면 됩니다. 앱의 다른 기능은 그대로 쓸 수 있습니다.</td></tr>
 </table>
 <p>로그인과 결제는 이용자가 고른 서비스가 직접 처리합니다. 카카오(대한민국) · Google(미국) · Apple(미국)은 로그인할 때 위 '소셜 로그인'의 정보를 저희에게 보내고,
-Apple은 App Store 결제를 처리합니다. 각 서비스에서의 처리는 그 회사의 처리방침을 따릅니다.</p>
+Apple은 App Store 결제를, Google은 Google Play 결제를 처리합니다. 각 서비스에서의 처리는 그 회사의 처리방침을 따릅니다.</p>
 
 <h2>보관 기간과 파기</h2>
 <p>서버의 정보는 계정을 지울 때까지 보관합니다. 앱의 <strong>설정 › 계정 삭제</strong>로 언제든 지울 수 있고, 지우면 프로필 · 소셜 로그인 정보 · 대국 기록 · 이용 기록 ·
@@ -126,7 +133,7 @@ Apple은 App Store 결제를 처리합니다. 각 서비스에서의 처리는 �
 <hr>
 <div lang="en">
 <h1>절대장기 (Jeoldae Janggi) — Privacy Policy</h1>
-<p class="updated">Last updated 2026-10-26</p>
+<p class="updated">Last updated 2026-11-01</p>
 
 <p>For <strong>online games against other people</strong>, the app keeps only what the service
 needs on our server. If you start as a guest, we never ask for your name, email, or phone number. If you sign in with Kakao, Google, or Apple,
@@ -143,8 +150,9 @@ records never leave it (only the result of the placement games that set your sta
   <tr><th>Friends and clans</th><td>Your friend list and requests, friend code and invites, the clan (문파) you joined and your role, and your clan score contributions</td></tr>
   <tr><th>Chat</th><td>Messages and timestamps in game chats both players opened and in clan chats (profanity is masked before storage)</td></tr>
   <tr><th>Wallet and quests</th><td>Your coin balance, the boards, pieces and profile icons you own, a log of coins received and spent (check-ins, quests, purchases, game fees, free refills), check-in days, and quest rewards you claimed</td></tr>
-  <tr><th>Device number</th><td>A random number the app creates in this device's keychain. It is not an advertising identifier; it is used only to limit the welcome coins, invite rewards and wallet transfer to once per device, and to stop a restricted player from escaping the restriction by deleting the account or starting over as a new guest. It stays, unlinked from any account, after you delete your account (see "Retention and deletion").</td></tr>
-  <tr><th>Purchases</th><td>App Store transaction IDs, the product, purchase and (for subscriptions) expiry dates, and refund status. Payment details such as card numbers are handled by Apple; we never receive them.</td></tr>
+  <tr><th>Device number</th><td>On iOS, a random number the app creates in this device's keychain; on Android, the device number the system gives this app (ANDROID_ID), mixed with the app name and hashed so it cannot be reversed. It is not an advertising identifier; it is used only to limit the welcome coins, invite rewards and wallet transfer to once per device, and to stop a restricted player from escaping the restriction by deleting the account or starting over as a new guest. It stays, unlinked from any account, after you delete your account (see "Retention and deletion").</td></tr>
+  <tr><th>Notifications</th><td>If you turn notifications on, this device's push token (the notification address Apple or Google gives each device) and device type. Used only to tell you about friend game challenges, friend requests, clan join requests and your turn in untimed games; we never send advertising notifications. Deleted when you turn notifications off or delete your account.</td></tr>
+  <tr><th>Purchases</th><td>App Store and Google Play transaction IDs, the product, purchase and (for subscriptions) expiry dates, and refund status. Payment details such as card numbers are handled by Apple or Google; we never receive them.</td></tr>
   <tr><th>Reports and blocks</th><td>Who reported whom, the reason, any note you wrote, your block list, and any restrictions</td></tr>
   <tr><th>Access logs</th><td>Our hosting provider may keep access logs such as IP addresses for a short period for security and abuse prevention.</td></tr>
 </table>
@@ -167,9 +175,14 @@ the people in that chat.</p>
   · Country, timing and method: data is stored in the Seoul, South Korea region; the company may access it from abroad (Singapore, the USA and others) for operations and incident response. Transferred whenever you use the app, over encrypted connections (HTTPS).<br>
   · Purpose and retention: operating the server, until you delete your account or the contract ends<br>
   · How to refuse, and what happens: don't use the online features, or delete your account in Settings › Delete account. You then can't play people, use friends, clans or the shop; games against the AI still work.</td></tr>
+  <tr><th>Apple Inc. (USA) · Google LLC (USA)</th><td>Notification delivery — Apple Push Notification service (iOS) and Firebase Cloud Messaging (Android).<br>
+  · Items: the push token and the notification text (the sender's nickname and what the notification is about)<br>
+  · Country, timing and method: the USA, each time a notification is sent, over encrypted connections (HTTPS)<br>
+  · Purpose and retention: delivering notifications to your device, under each company's privacy policy<br>
+  · How to refuse, and what happens: turn off Settings › Notifications in the app, or block notifications in your device settings. Everything else in the app keeps working.</td></tr>
 </table>
 <p>Sign-in and payments are handled by the service you choose: Kakao (South Korea), Google (USA) and Apple (USA) send us the sign-in information
-above, and Apple processes App Store payments under its own privacy policy.</p>
+above; Apple processes App Store payments and Google processes Google Play payments, each under its own privacy policy.</p>
 
 <h2>Retention and deletion</h2>
 <p>Server data is kept until you delete your account. You can do so at any time in <strong>Settings › Delete account</strong>; your profile,
