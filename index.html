@@ -25,7 +25,7 @@
 <!-- 공개본은 JLBizz/janggi-privacy 의 index.html(이 파일을 그대로 복사한다). 2026-10-21 보호책임자 · 연락처는 사용자가 정했다.
      2026-10-23 출시 전 검수에 맞춘 초안 — 소셜 로그인(카카오 · Google · Apple)으로 받는 정보, 처리 위탁 · 국외 이전, 파기 방법, 안전 조치,
      결제 기록 보유 기간, 없어진 무료 이용 한도 문구. 2026-10-26 공개 — 사용자가 공개한 링크에서 검토한다.
-     2026-11-01 알림(푸시) · 안드로이드 기기 번호 · Google Play 결제를 더했다. -->
+     2026-11-01 알림(푸시) · 안드로이드 기기 번호 · Google Play 결제 · 결제 도구(Unity IAP 5.4 가 결제 때 Unity 로 보내는 이벤트)를 더했다. -->
 
 <h1>절대장기 개인정보 처리방침</h1>
 <p class="updated">최종 수정일 2026-11-01</p>
@@ -73,6 +73,11 @@ AI 대국은 기기 안에서만 돌고, 그 수순과 전적은 기기 밖으�
   · 국가 · 시기 · 방법: 미국, 알림을 보낼 때마다, 암호화된 전송(HTTPS)으로<br>
   · 쓰는 목적 · 보유 기간: 알림을 기기에 전달. 각 회사의 처리방침에 따름<br>
   · 거부하는 방법과 그 결과: 설정 › 알림을 끄거나 기기 설정에서 알림을 막으면 됩니다. 앱의 다른 기능은 그대로 쓸 수 있습니다.</td></tr>
+  <tr><th>Unity Technologies Inc.(미국)</th><td>앱 안 결제를 다루는 결제 도구(Unity IAP) 제공.<br>
+  · 옮기는 항목: 결제할 때 — 산 상품 번호 · 값 · 통화, App Store · Google Play 거래 번호와 영수증, Unity가 앱 설치마다 만드는 무작위 번호, 기기 모델 · 운영체제 버전 · 언어 · 지역 설정, 앱 버전 · 설치 시각, 접속 IP로 짐작한 나라<br>
+  · 국가 · 시기 · 방법: 미국, 결제를 시작 · 완료 · 실패할 때마다, 암호화된 전송(HTTPS)으로<br>
+  · 쓰는 목적 · 보유 기간: 결제 도구의 운영 · 오류 확인과 결제 통계. Unity의 처리방침에 따름<br>
+  · 거부하는 방법과 그 결과: 앱 안에서 결제하지 않으면 옮기지 않습니다. 결제 말고 다른 기능은 그대로 쓸 수 있습니다.</td></tr>
 </table>
 <p>로그인과 결제는 이용자가 고른 서비스가 직접 처리합니다. 카카오(대한민국) · Google(미국) · Apple(미국)은 로그인할 때 위 '소셜 로그인'의 정보를 저희에게 보내고,
 Apple은 App Store 결제를, Google은 Google Play 결제를 처리합니다. 각 서비스에서의 처리는 그 회사의 처리방침을 따릅니다.</p>
@@ -95,7 +100,7 @@ Apple은 App Store 결제를, Google은 Google Play 결제를 처리합니다. �
 앱이 직접 읽거나 쓸 수 없게 서버 함수로만 다룹니다. 비밀번호를 받거나 저장하지 않으며, 결제 정보(카드 번호 등)는 받지 않습니다. 운영자의 서버 접근은 필요한 사람으로 줄입니다.</p>
 
 <h2>자동으로 모으는 장치</h2>
-<p>앱은 쿠키나 광고 식별자를 쓰지 않습니다. 위의 '기기 번호'만 앱이 이 기기에 만들어 씁니다. 광고 · 분석 도구를 넣지 않았습니다.</p>
+<p>앱은 쿠키나 광고 식별자를 쓰지 않습니다. 위의 '기기 번호'만 앱이 이 기기에 만들어 씁니다. 광고 도구는 넣지 않았고, 분석 도구는 위 결제 도구(Unity IAP)가 결제할 때 Unity로 보내는 정보뿐입니다.</p>
 
 <h2>기기 안에만 남는 것</h2>
 <p>아래는 기기 안의 앱 저장 공간에만 기록되며 저희는 볼 수 없습니다. 앱을 지우면 함께 사라집니다.</p>
@@ -180,6 +185,11 @@ the people in that chat.</p>
   · Country, timing and method: the USA, each time a notification is sent, over encrypted connections (HTTPS)<br>
   · Purpose and retention: delivering notifications to your device, under each company's privacy policy<br>
   · How to refuse, and what happens: turn off Settings › Notifications in the app, or block notifications in your device settings. Everything else in the app keeps working.</td></tr>
+  <tr><th>Unity Technologies Inc. (USA)</th><td>Provides the in-app purchase library (Unity IAP).<br>
+  · Items: when you make a purchase — the product ID, price and currency, the App Store or Google Play transaction ID and receipt, a random per-install ID created by Unity, device model, OS version, language and locale, app version and install time, and the country estimated from the IP address<br>
+  · Country, timing and method: the USA, each time a purchase starts, completes or fails, over encrypted connections (HTTPS)<br>
+  · Purpose and retention: operating and troubleshooting the purchase library and purchase statistics, under Unity's privacy policy<br>
+  · How to refuse, and what happens: nothing is sent unless you make an in-app purchase. Everything else in the app keeps working.</td></tr>
 </table>
 <p>Sign-in and payments are handled by the service you choose: Kakao (South Korea), Google (USA) and Apple (USA) send us the sign-in information
 above; Apple processes App Store payments and Google processes Google Play payments, each under its own privacy policy.</p>
@@ -206,7 +216,7 @@ details.</p>
 <h2>What stays on your device</h2>
 <p>AI ladder rating and record, games in progress, recent game records and per-move evaluations, quest progress, and settings are written only to
 the app's own storage. We cannot see them, and deleting the app removes them. The app does not access location, contacts, camera, microphone, or
-your photo library, does not use cookies or advertising identifiers, and contains no advertising or analytics SDKs.</p>
+your photo library, does not use cookies or advertising identifiers, and contains no advertising SDKs; the only analytics is what the purchase library (Unity IAP) sends to Unity when you make a purchase.</p>
 
 <h2>Device backup</h2>
 <p>App data may be included in Android auto-backup or in your iOS device backup (iCloud or computer). These are Google and Apple features and are
